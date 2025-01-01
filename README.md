@@ -4,8 +4,9 @@ updates all the repos in your user/Vencord/userplugins folder with a simple scri
 
 1. put the check_and_update_repos.sh file into your userplugins folder
 2.  open terminal and go to the userplugin folder's path
-3.  paste ./check_and_update_repos.sh and press enter
-4.  you shoul see all the repos pop up one by one. repos on the newest version will show as "already up to date" and ones that need to be pulled will show "needs to pull updates" and will show what was pulled.
+3.  paste chmod +x check_and_update_repos.sh to make the script executable, only for unix based systems. For windows, install bash (I reccomend git, git alrdy has bash preinstalled so once you add it to your path bash is auto configured https://git-scm.com/downloads/win) then move to the next step.
+4.  paste ./check_and_update_repos.sh and press enter
+5.  you shoul see all the repos pop up one by one. repos on the newest version will show as "already up to date" and ones that need to be pulled will show "needs to pull updates" and will show what was pulled.
 
 it'll look like this
 
